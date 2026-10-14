@@ -1,0 +1,79 @@
+# ===== 依赖目录 =====
+node_modules/
+vendor/
+.pnp
+.pnp.js
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+
+# ===== 构建产物 =====
+dist/
+build/
+out/
+target/
+*.tsbuildinfo
+
+# ===== 环境变量与密钥（绝对不要提交）=====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# ===== 日志 =====
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ===== 缓存 =====
+.cache/
+.temp/
+.tmp/
+.eslintcache
+.stylelintcache
+.terraform/
+
+# ===== 测试与覆盖率 =====
+coverage/
+.nyc_output/
+__snapshots__/
+
+# ===== 编辑器与 IDE =====
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===== 数据库与本地数据 =====
+*.sqlite
+*.sqlite3
+*.db
+dump.sql
+*.mdb
+
+# ===== 工作区数据（WorkBuddy 本地数据目录）=====
+# 如需追踪记忆/日志，请注释掉下一行
+.workbuddy/
+
+# ===== 其他 =====
+*.bak
+*.tmp
+Thumbs.db
